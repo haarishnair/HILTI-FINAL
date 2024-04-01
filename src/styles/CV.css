@@ -1,0 +1,204 @@
+.fullContent{
+    /* margin-left: 20%; */
+}
+
+h1{
+    font-size: larger;
+    color: black;
+    margin-left: 22%;
+}
+
+.flex h2{
+    font-size: 16px;
+    color: black;
+    margin-left: 22%;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 800px 300px 100px;    
+    align-items: center;
+    margin: 0 100px;
+}
+
+h3{
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+    margin-left: 22%;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: auto;    
+    align-items: center;
+    margin: 0 150px;
+}
+
+.applicant{
+    grid-template-columns: 800px;    
+    align-items: center;
+    margin: 0 150px;
+}
+
+.title2{
+    display: grid;
+    grid-template-columns: 800px auto;    
+    margin-left: 90px;
+}
+
+.title2 h2{
+    font-size: 16px;
+    color: black;
+}
+
+.applicant h2{
+    margin-left: 22%;
+}
+
+.form{
+    grid-template-columns: auto;    
+}
+
+.stars{
+    color: red;
+}
+
+.dropdown{
+    display: grid;
+    grid-template-columns: auto auto;    
+}
+
+.title2 input{
+    padding: 6px 12px;
+    font-size: 16px;
+    width: 550px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.title2 input:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+select{
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+select:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.drop{
+    grid-template-rows: auto auto;    
+}
+
+.submit button{
+    margin-left: 50%;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #D2051E;
+}
+
+.pic {
+    display: grid;
+    grid-template-columns: 400px 600px;    
+}
+
+input[type="file"] {
+    padding: 4px;
+    position: relative;
+    outline: none;
+  
+    /* File Selector Button Styles */
+    &::file-selector-button {
+      border-radius: 4px;
+      padding: 0 16px;
+      height: 40px;
+      cursor: pointer;
+      background-color: white;
+      border: 1px solid rgba(#000, 0.16);
+      box-shadow: 0px 1px 0px rgba(#000, 0.05);
+      margin-right: 16px;
+  
+      width: 132px;
+      color: transparent;
+      
+      @supports (-moz-appearance: none) {
+        color: var(--primary-color);
+      }
+  
+      &:hover {
+        background-color: #f3f4f6;
+      }
+  
+      &:active {
+        background-color: #e5e7eb;
+      }
+    }
+  
+    /* Faked label styles and icon */
+    &::before {
+      position: absolute;
+      pointer-events: none;
+      top: 14px;
+      left: 16px;
+      height: 20px;
+      width: 20px;
+      content: "";
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230964B0'%3E%3Cpath d='M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zM7 9l1.41 1.41L11 7.83V16h2V7.83l2.59 2.58L17 9l-5-5-5 5z'/%3E%3C/svg%3E");
+    }
+    
+    &::after {
+      position: absolute;
+      pointer-events: none;
+      top: 16px;
+      left: 40px;
+      color: var(--primary-color);
+      content: "Upload File";
+    }
+  
+    /* Handle Component Focus */
+    &:focus-within::file-selector-button,
+    &:focus::file-selector-button {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+    }
+  }
+
+.title3 {
+    display: grid;
+    grid-template-columns: 800px auto;    
+    margin-left: 90px;
+}
+
+
+
